@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     <Container>
       <figure>
         <StyledLink to="/">
-          <Img src={logoImg} />
+          <Img alt="The Librarian logo. It's a blue book." src={logoImg} />
           <Title className="hide-sm-down">Librarian</Title>
         </StyledLink>
       </figure>
