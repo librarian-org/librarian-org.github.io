@@ -1,25 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import SiteRoutes from './SiteRoutes';
+import GlobalStyle from './styles/global';
+import Header from './Components/Header';
+import Content from './Components/Content';
+import Footer from './Components/Footer';
+import Copyright from './Components/Copyright';
 
 function App() {
+  const controlDirection = () => {
+    const header = document.querySelector('header');
+    if (header) {
+      header.classList[window.scrollY > 1 ? 'add' : 'remove']('moving');
+    }
+  }
+
+  useEffect(() => {
+      window.addEventListener('scroll', controlDirection);
+
+      return () => {
+          window.removeEventListener('scroll', controlDirection);
+      };
+  },[]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Header />
+      <Content>
+        <SiteRoutes />
+      </Content>
+      <Footer />
+      <Copyright />
+      <GlobalStyle />
+    </BrowserRouter>
   );
 }
 
