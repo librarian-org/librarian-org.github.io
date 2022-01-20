@@ -9,7 +9,7 @@ const Home: React.FC = () => {
         <h1>Simple and easy to use library manager</h1>
       </Title>
       <Subtitle>
-        <h2>The most simple, easyest, best looking library manager system.</h2>
+        <h2>The most simple, easiest, best looking library manager system.</h2>
       </Subtitle>
     </Container>
   );
