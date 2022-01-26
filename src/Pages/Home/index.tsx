@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Title>
-        <h1>Simple and easy to use library manager</h1>
+        <h1>Simplest and easy to use library manager</h1>
       </Title>
       <Subtitle>
         <h2>The most simple, easiest, best looking library manager system.</h2>
