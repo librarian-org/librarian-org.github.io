@@ -14,6 +14,9 @@ export const Container = styled.section`
 
   padding: 24px 36px;
 
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 3%), 0 1px 3px 0 rgb(0 0 0 / 12%),
+    0 1px 2px rgb(0 0 0 / 15%);
+
   span {
     color: #1d6f93;
   }
