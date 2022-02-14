@@ -8,6 +8,7 @@ export const Container = styled.div`
   font-size: 12px;
 
   height: 46px;
+  padding: 4em 1em;
 
   h3 {
     margin-bottom: 8px;

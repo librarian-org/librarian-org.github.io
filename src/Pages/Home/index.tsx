@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container, Subtitle, Title } from './styles';
+import Card from '../../Components/Card';
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
       <Subtitle>
         <h2>The most simplest, easiest, best looking library manager system.</h2>
       </Subtitle>
+      <Card />
     </Container>
   );
 };
