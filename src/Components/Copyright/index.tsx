@@ -6,7 +6,7 @@ const Copyright: React.FC = () => {
   return (
     <Container>
       <h3><em>Simple and easy to use Library system</em></h3>
-      <p>{new Date().getFullYear()} &copy; Librarian Org &amp; Librarian</p>
+      <p>&copy; {new Date().getFullYear()}  Librarian Org &amp; Librarian</p>
     </Container>
   );
 };

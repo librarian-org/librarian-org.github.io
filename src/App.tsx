@@ -3,7 +3,6 @@ import { BrowserRouter } from 'react-router-dom';
 import SiteRoutes from './SiteRoutes';
 import GlobalStyle from './styles/global';
 import Header from './Components/Header';
-import Content from './Components/Content';
 import Footer from './Components/Footer';
 import Copyright from './Components/Copyright';
 
@@ -26,9 +25,7 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
-      <Content>
-        <SiteRoutes />
-      </Content>
+      <SiteRoutes />
       <Footer />
       <Copyright />
       <GlobalStyle />

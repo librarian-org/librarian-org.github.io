@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   margin: 0 auto;
-  margin-top: 250px;
+  margin-top: 100px;
   margin-bottom: 100px;
   width: 80%;
   display: flex;
@@ -18,7 +18,7 @@ export const Container = styled.section`
     0 1px 2px rgb(0 0 0 / 15%);
 
   span {
-    color: #1d6f93;
+    color: #49add9;
   }
 
   h2 {
@@ -35,6 +35,22 @@ export const Container = styled.section`
 
     li {
       padding: 12px 8px;
+    }
+  }
+
+  a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #1d6f93;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    svg {
+      vertical-align: middle;
+      display: inline-block;
     }
   }
 `;

@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <Container>
       <FooterRow>
         <Section>
-          <h3>Documentations</h3>
+          <h3>Documentation</h3>
           <FooterMenu>
             <li>
               <a
