@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiGithub } from 'react-icons/fi';
 
 import { Container, Strong } from './styles';
 
@@ -34,10 +35,18 @@ const Card: React.FC = () => {
           </li>
           <li>
             <strong>Inclusive Community</strong>: We are 100% inclusive and have
-            a code of conduct. Diversity and inclusivity are good for Librarian
-            Org, the tech community, and the world.
+            a&nbsp;
+            <a href="https://github.com/librarian-org/librarian/blob/main/.github/CODE_OF_CONDUCT.md">
+              code of conduct
+            </a>
+            . Diversity and inclusivity are good for Librarian Org, the tech
+            community, and the world.
           </li>
         </ul>
+
+        <a href="https://github.com/librarian-org" target="_blank">
+          <FiGithub size={20} /> <strong>View source on Github</strong>
+        </a>
       </article>
     </Container>
   );

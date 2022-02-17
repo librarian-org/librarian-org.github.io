@@ -1,10 +1,12 @@
 import React from 'react';
 import { Route, Routes as Switch } from 'react-router-dom';
 import Home from '../Pages/Home';
+import About from '../Pages/About';
 
 const SiteRoutes: React.FC = () => (
   <Switch>
     <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
     <Route
       path="*"
       element={

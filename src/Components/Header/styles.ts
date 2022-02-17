@@ -4,6 +4,8 @@ import { tint } from 'polished';
 
 export const Container = styled.header`
   display: flex;
+  position: absolute;
+  width: 100%;
   height: 6em;
   padding: 0 24px;
   align-items: center;
@@ -15,6 +17,7 @@ export const Container = styled.header`
   flex-direction: row;
 
   justify-content: space-between;
+  z-index: 10;
   figure {
     a {
       text-decoration: none;

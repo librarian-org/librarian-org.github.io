@@ -7,9 +7,10 @@ interface MenuProps {
   cssClass: string;
 }
 
-const Menu: React.FC<MenuProps> = ({cssClass}) => {
+const Menu: React.FC<MenuProps> = ({ cssClass }) => {
   return (
     <Container className={cssClass}>
+      <StyledLink to="about">About</StyledLink>
       <a
         target="_blank"
         rel="noreferrer"
@@ -20,7 +21,6 @@ const Menu: React.FC<MenuProps> = ({cssClass}) => {
       <a target="_blank" rel="noreferrer" href="https://dev.to/librarian-org">
         Blog
       </a>
-      <StyledLink to="about">About</StyledLink>
     </Container>
   );
 };
