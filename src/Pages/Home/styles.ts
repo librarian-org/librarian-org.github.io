@@ -91,6 +91,18 @@ export const Title = styled.h1`
   font-weight: 600;
 `;
 
+export const Highlight = styled.h2`
+  font-size: 2.2rem;
+
+  text-align: center;
+
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+
+  font-weight: bold;
+  color: rgba(255,255,255,0.87);
+`;
+
 export const Subtitle = styled.div`
   display: flex;
   color: #f1f1f1;
@@ -102,6 +114,73 @@ export const Subtitle = styled.div`
 
   h2 {
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: normal;
+  }
+`;
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  @media (min-width: 992px) {
+    flex-direction: row;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgba(255,255,255,0.87);
+  }
+`;
+
+export const Column60 = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @media (min-width: 992px) {
+    width: 60%;
+  }
+`;
+
+export const Column30 = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  @media (min-width: 992px) {
+    width: 60%;
+  }
+`;
+
+export const VerticalCenter = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+`;
+
+export const Right = styled.div`
+  text-align: right;
+`;
+
+export const Left = styled.div`
+  text-align: left;
+  margin-left: 5rem;
+`;
+
+export const Step = styled.div`
+  position: relative;
+  top: -6rem;
+  left: 1.3rem;
+  display: flex;
+  color: #090909;
+  font-weight: 700;
+  font-size: 10rem;
+  z-index: -1;
+
+  span {
+    position: relative;
   }
 `;
