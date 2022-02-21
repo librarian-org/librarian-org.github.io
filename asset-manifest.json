@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.63679ecf.js",
+    "main.js": "/static/js/main.40cfedf4.js",
     "static/js/787.c3c613ef.chunk.js": "/static/js/787.c3c613ef.chunk.js",
+    "static/media/librarian-borrow-borrow.png": "/static/media/librarian-borrow-borrow.3ab20ebc572ba77829d7.png",
+    "static/media/librarian-lot-of-tabs.png": "/static/media/librarian-lot-of-tabs.fa45b44e057f8e8160a0.png",
+    "static/media/librarian-title-edition.png": "/static/media/librarian-title-edition.b7e10a8e0abf0d65a3d6.png",
+    "static/media/librarian-person-contacts.png": "/static/media/librarian-person-contacts.b98c405e3c1014da06d0.png",
+    "static/media/librarian-quick-search.png": "/static/media/librarian-quick-search.bdf3c86616d109b7cc0c.png",
     "static/media/librarian-login.png": "/static/media/librarian-login.1373b9f6231bc784b346.png",
     "static/media/logo.png": "/static/media/logo.62f7c3f05b05cd235dc5.png",
     "index.html": "/index.html",
-    "main.63679ecf.js.map": "/static/js/main.63679ecf.js.map",
+    "main.40cfedf4.js.map": "/static/js/main.40cfedf4.js.map",
     "787.c3c613ef.chunk.js.map": "/static/js/787.c3c613ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.63679ecf.js"
+    "static/js/main.40cfedf4.js"
   ]
 }
