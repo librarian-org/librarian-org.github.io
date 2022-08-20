@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Librarian Site",
+  "name": "Librarian - Open Source Library Manager: The most simplest, easiest, best looking library manager system, control your titles, borrows and more.",
   "icons": [
     {
       "src": "favicon.ico",
