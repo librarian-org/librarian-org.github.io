@@ -10,7 +10,7 @@ const SiteRoutes: React.FC = () => (
     <Route
       path="*"
       element={
-        <main style={{ padding: "1rem" }}>
+        <main style={{ padding: '1rem' }}>
           <h1>There's nothing here!</h1>
         </main>
       }
