@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://gitub.com/librarian-org/librarian/"
+                href="https://github.com/librarian-org/librarian/"
               >
                 GitHub
               </a>
